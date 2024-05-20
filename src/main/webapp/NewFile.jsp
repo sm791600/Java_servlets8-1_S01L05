@@ -44,6 +44,29 @@ if(xv>25){
 %>
 <br/><br/>
 
+<!-- slide 14 -->
+
+<%! int fontSize; %>
+	<%for(fontSize=1;fontSize<=7;fontSize++){ %>
+	<font color ="green" size="<%=fontSize%>">
+	JSP Tutorial
+	</font><br/>
+	<%} %>
+
+<%! int xc=33; %>
+<%= xc %>
+<br/><br/>
+<%! String message(){
+
+return "I love JSP, string message";
+} %>
+<%= message()%>
+<br/><br/>
+<-- <%response.sendRedirect("HTML komentar https://www.google.com"); %> -->
+<%-- response.sendRedirect("JSP komentar https://www.google.com"); --%>
+
+
+
 
 </body>
 </html>
