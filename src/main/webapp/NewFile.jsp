@@ -15,5 +15,13 @@
 <%= "x=" %>
 
 <%= x %>
+<br/>
+<%= new Integer(12) %>
+<br/>
+<%= new String("Marko") %>
+<br/>
+<%= new java.util.Date() %>
+<br/>
+
 </body>
 </html>
