@@ -22,6 +22,28 @@
 <br/>
 <%= new java.util.Date() %>
 <br/>
+<br/><br/>
+<%=25*4 %>
+<br/>
+<%=25>4 %>
+<br/>
+<%
+int x=255;
+out.println(x);
+%>
+<br/>
+<%=x %>
+<br/><br/>
+<%
+int xv=24;
+if(xv>25){
+	out.println("X is "+xv+" greater than 25");
+	}else{
+		out.println("X is "+xv+" not greater than 25");
+	}
+%>
+<br/><br/>
+
 
 </body>
 </html>
